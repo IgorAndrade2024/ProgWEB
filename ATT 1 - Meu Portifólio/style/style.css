@@ -1,0 +1,117 @@
+body{
+    background-color: #000022;
+}
+h1,h3,.apresentação p{
+    display: flex;
+    justify-content: center;
+    color:#ffb800;
+    font-family: 'Courier New', Courier, monospace;
+}
+.menu{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ffb800;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+}
+a:link, a:visited {
+    font-family: 'Courier New', Courier, monospace;
+  background-color: #000022;
+  color: #ffb800;
+  border: 1px solid #ffb800;
+  padding: 1px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+a:hover, a:active {
+  background-color: #ffb800;
+  color: #000022;
+}
+.container{
+    display: flex;
+    padding: 5%;
+}
+.apresentação,.eu{
+    width: 50%;
+}
+.acordeao {
+    width: 60%;
+    margin: 40px auto;
+}
+.item input {
+    display: none; /* esconde o checkbox */
+}
+.titulo {
+    margin: 10px 0px 10px 0px;
+    border-radius: 10px;
+    display: block;
+    padding: 15px;
+    background-color: #ffb800;
+    font-weight: bold;
+    cursor: pointer;
+}
+/*pra fazer o acordeão*/
+.conteudo {
+    background-color: #ffe08a;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease;
+    padding: 0 15px;
+}
+.item input:checked + .titulo + .conteudo {
+    max-height: 200px;
+    padding: 15px;
+}
+.eu img{
+    border-radius: 20px;
+    max-width: 100%;
+    max-height: 60%;
+}
+.front, .back, .database, .redes{
+    display: flex;
+    padding: 1%;
+}
+.tech{
+    padding: 1%;
+    width: 50%;
+}
+
+.menssagem {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 300px;
+}
+h2 {
+    text-align: center;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #218838;
+}
+.redes, .menssagem{
+    width: 50%;
+}
