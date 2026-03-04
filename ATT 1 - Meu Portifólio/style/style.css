@@ -78,7 +78,11 @@ a:hover, a:active {
     padding: 1%;
     width: 50%;
 }
-
+.tech img{
+    border-radius: 20px;
+    max-width: 100%;
+    max-height: 60%;
+}
 .menssagem {
     background-color: #fff;
     padding: 20px;
@@ -114,6 +118,15 @@ button:hover {
 }
 .redes, .menssagem{
     width: 50%;
+}
+.redes img{
+    border-radius: 20px;
+    max-width: 100%;
+    max-height: 100%;
+}
+.redes a{
+    max-width: 100%;
+    max-height: 100%;
 }
 
 
