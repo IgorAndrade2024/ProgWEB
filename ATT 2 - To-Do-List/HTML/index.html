@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Atividade To Do List</title>
+  <link rel="stylesheet" href="../CSS/style.css" />
+</head>
+<body>
+  <div class="app">
+    <!-- Parte inicial -->
+    <div id="home">
+      <div id="taskList"></div>
+      <button class="btn-add" id="addBtn">+</button>
+    </div>
+    <!-- Parte de add tarefa -->
+    <div id="formPage" class="hidden">
+      <h3>Título da Tarefa:</h3>
+      <input type="text" id="title" />
+      <h3>Descrição da Tarefa:</h3>
+      <textarea id="description"></textarea>
+      <h3>Data:</h3>
+      <input type="date" id="date" />
+      <div class="actions">
+        <button class="create" id="createBtn">Criar</button>
+        <button class="cancel" id="cancelBtn">Cancelar</button>
+      </div>
+    </div>
+  </div>
+  <script src="../JAVASCRIPT/script.js"></script>
+</body>
+</html>
