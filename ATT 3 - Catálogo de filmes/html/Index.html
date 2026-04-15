@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Catálogo de Filmes</title>
+    <link rel="stylesheet" href="../css/Style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>🎬 Catálogo de Filmes</h1>
+
+    <div class="card">
+        <h3>Adicionar Filme</h3>
+        <input id="titulo" placeholder="Título">
+        <input id="ano" type="number" placeholder="Ano">
+        <input id="genero" placeholder="Gênero">
+        <input id="duracao" type="number" placeholder="Duração">
+        <input id="avaliacao" type="number" placeholder="Nota (0-10)">
+        <button id="btnAdicionar">Adicionar</button>
+    </div>
+
+    <div class="card">
+        <h3>Buscar</h3>
+        <input id="buscaTitulo" placeholder="Título">
+        <button id="btnBuscarTitulo">Buscar</button>
+
+        <input id="buscaGenero" placeholder="Gênero">
+        <button id="btnBuscarGenero">Buscar</button>
+    </div>
+
+    <div class="card">
+        <button id="btnListar">Listar Todos</button>
+    </div>
+
+    <ul id="lista"></ul>
+
+</div>
+
+<script type="module" src="../typescript/Main.js"></script>
+</body>
+</html>
