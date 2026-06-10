@@ -1,0 +1,32 @@
+
+Instalação
+Front-end
+npm install
+npm install axios react-router-dom
+npm install bootstrap
+npm run dev
+Back-end
+npm install
+npx prisma generate
+npx prisma migrate dev --name init
+npx ts-node prisma/seed.ts
+npm run dev
+Configuração do Banco
+
+.env na pasta backend:
+
+DATABASE_URL="mysql://usuario:senha@localhost:3306/crud_mundo"
+JWT_SECRET="segredo123"
+
+Substitua os dados do banco pelos da sua máquina.
+
+Login Padrão
+
+Usuário:
+admin
+
+Senha:
+123
+
+Video de apresentação:
+https://drive.google.com/file/d/10AVypdC5pbUDXta15cR7xgbkah_lQUfl/view?usp=sharing
